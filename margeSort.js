@@ -11,7 +11,7 @@ function margeSort(arr) {
   const rightArr = arr.slice(mid);
   return marge(margeSort(leftArr), margeSort(rightArr));
 }
-//Marge
+//Marge sorting
 function marge(leftArr, rightArr) {
   const sortedArr = [];
   while (leftArr.length && rightArr.length) {
