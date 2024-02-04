@@ -24,6 +24,8 @@ function marge(leftArr, rightArr) {
   return [...sortedArr, ...leftArr, ...rightArr];
 }
 
+console.log("hwwlo");
+
 const arr = [10, 20, -20, -5, 2, 5, 1, 100, -200, 30];
 
 console.log(margeSort(arr));
