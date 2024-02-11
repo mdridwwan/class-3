@@ -11,6 +11,7 @@
 // left p-6, rigth p-;
 // [1, 2, 3, 4, 5, 6, 7, 8]
 
+//----QuickSort Function----//
 function quickSort(arr) {
   if (arr.length < 2) {
     return arr;
@@ -27,6 +28,9 @@ function quickSort(arr) {
   }
   return [...quickSort(left), pivot, ...quickSort(rigth)];
 }
-
+//---Array---//
 const arr = [1, 5, 6, 3, 8, 4, 7, 2, 100, 400, 200, 10000, 2110];
+//--Function call---//
 console.log(quickSort(arr));
+//---Output---//
+// [1, 2, 3, 4, 5, 6, 7, 8, 100, 200, 400, 2110, 10000];
