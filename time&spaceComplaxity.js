@@ -20,7 +20,15 @@
 // console.log(result);
 //time and space complexity
 
-const n = 10;
+// const n = 100;
+// const even = new Array(n + 1).fill(false);
+// for (let i = 0; i <= n; i += 2) {
+//   even[i] = true;
+// }
+
+// console.log(even);
+
+const n = 100;
 const even = new Array(n + 1).fill(false);
 for (let i = 0; i <= n; i += 2) {
   even[i] = true;
