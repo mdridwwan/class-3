@@ -20,14 +20,14 @@
 // console.log(result);
 //time and space complexity
 
-const n = 10;
-const even = new Array(n + 1).fill(false);
-for (let i = 0; i <= n; i += 2) {
-  console.log(i);
-  even[i] = true;
-}
+// const n = 10;
+// const even = new Array(n + 1).fill(false);
+// for (let i = 0; i <= n; i += 2) {
+//   console.log(i);
+//   even[i] = true;
+// }
 
-console.log(even);
+// console.log(even);
 
 // const n = 11;
 // const even = [];
@@ -51,3 +51,16 @@ console.log(even);
 // }
 
 // console.log(even);
+
+// let input = 100;
+// let count = 0;
+// for (let i = 1; i <= input; i++) {
+//   for (let j = 1; j <= input; j++) {
+//     count += 1;
+//   }
+// }
+
+// console.log("input = ", input, "count = ", count);
+
+let n = 3;
+console.log(n * n);
